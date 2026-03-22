@@ -1,7 +1,7 @@
 package Atividade_1.Simples;
 
 public class MainListaSimples {
-    static void main() {
+    public static void main(String[] args) {
         ListaSimples lista = new ListaSimples(5);
 
         System.out.println("Adicionando elementos:");

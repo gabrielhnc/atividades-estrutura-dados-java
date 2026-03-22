@@ -1,7 +1,7 @@
 package Atividade_1.Dinamica;
 
 public class MainListaDinamica {
-    static void main() {
+    public static void main(String[] args) {
         ListaDinamica lista = new ListaDinamica();
 
         System.out.println("=== Adicionando Elementos [Tamanho 5] ===");
@@ -30,7 +30,7 @@ public class MainListaDinamica {
         System.out.println("=================================================");
 
         System.out.println("ADICIONANDO VARIOS: ");
-        String[] nomes = {"Arroz" , "Morango", "Pera"};
+        String[] nomes = {"Arroz", "Morango", "Pera"};
         lista.adicionarVarios(nomes); // ADICIONAR VARIOS
 
         System.out.println("=================================================");
@@ -39,7 +39,7 @@ public class MainListaDinamica {
 
         System.out.println("=================================================");
 
-        lista.obter(5); // OBTER
+        lista.obter(4); // OBTER
 
         System.out.println("=================================================");
 
