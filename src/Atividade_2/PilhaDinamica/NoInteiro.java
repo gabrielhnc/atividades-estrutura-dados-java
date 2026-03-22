@@ -1,4 +1,4 @@
-package Filas.Dinamica;
+package Atividade_2.PilhaDinamica;
 
 public class NoInteiro {
     Integer conteudo;
